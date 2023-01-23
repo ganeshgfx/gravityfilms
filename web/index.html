@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+
+  <!-- HTML Meta Tags -->
+  <title>Gravity Films | VFX / GFX / SFX / Digital Marketing</title>
+  <meta name="description" content="Sound | Camera | Action !
+VFX / GFX / SFX / Digital Marketing
+Visual Effects Filmmaking 🎬">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://gravityfilms.space">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gravity Films">
+  <meta property="og:description" content="Sound | Camera | Action !
+VFX / GFX / SFX / Digital Marketing
+Visual Effects Filmmaking 🎬">
+  <meta property="og:image" content="https://gravityfilms.space/assets/assets/web_preview.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="gravityfilms.space">
+  <meta property="twitter:url" content="https://gravityfilms.space">
+  <meta name="twitter:title" content="Gravity Films">
+  <meta name="twitter:description" content="Sound | Camera | Action !
+VFX / GFX / SFX / Digital Marketing
+Visual Effects Filmmaking 🎬">
+  <meta name="twitter:image" content="https://gravityfilms.space/assets/assets/web_preview.png">
+
+
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Gravity Films">
+
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Gravity Films</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <style>
+     *{
+      padding:0px;
+      margin:0px;
+    }
+    .loading_fist_gvt{
+      color:white;
+      background-color: #101010;
+     height:100vh;
+      width:100vw;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.ring
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:150px;
+  height:150px;
+  background:transparent;
+  border:3px solid #3c3c3c;
+  border-radius:50%;
+  text-align:center;
+  line-height:150px;
+  font-family:sans-serif;
+  font-size:20px;
+  color:#ffffff;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px #ffffff;
+  box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+.ring:before
+{
+  content:'';
+  position:absolute;
+  top:-3px;
+  left:-3px;
+  width:100%;
+  height:100%;
+  border:3px solid transparent;
+  border-top:3px solid #ffffff;
+  border-right:3px solid #ffffff;
+  border-radius:50%;
+  animation:animateC 2s linear infinite;
+}
+span
+{
+  display:block;
+  position:absolute;
+  top:calc(50% - 2px);
+  left:50%;
+  width:50%;
+  height:4px;
+  background:transparent;
+  transform-origin:left;
+  animation:animate 2s linear infinite;
+}
+span:before
+{
+  content:'';
+  position:absolute;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  background:#ffffff;
+  top:-6px;
+  right:-8px;
+  box-shadow:0 0 20px #ffffff;
+}
+@keyframes animateC
+{
+  0%
+  {
+    transform:rotate(0deg);
+  }
+  100%
+  {
+    transform:rotate(360deg);
+  }
+}
+@keyframes animate
+{
+  0%
+  {
+    transform:rotate(45deg);
+  }
+  100%
+  {
+    transform:rotate(405deg);
+  }
+}
+  </style>
+</head>
+<body>
+<script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
+<div class="loading_fist_gvt"><div class="ring">
+  <span></span>
+</div></div>
+</body>
+</html>
