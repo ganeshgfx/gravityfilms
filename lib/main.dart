@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       style: TextStyle(
                           color: Colors.white
                       ),
-                      text: 'Sound | Camera | Action ! \nVFX / GFX / SFX / Digital Marketing \nVisual Effects Filmmaking'
+                      text: 'Sound | Camera | Action !\nVFX / GFX / SFX / Digital Marketing \nVisual Effects Filmmaking'
                   )
               ),
               Divider(
